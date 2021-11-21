@@ -1,0 +1,101 @@
+.main {
+  padding: 3rem 0rem;
+}
+
+.main img {
+  margin-top: 0.6rem;
+}
+
+.main h1 {
+  text-align: center;
+  margin: 2rem 0rem 5rem 0rem;
+}
+
+.main h2 {
+  text-align: center;
+  margin: 5rem 0rem;
+}
+
+.card-section {
+  height: fit-content;
+}
+
+.card-cnt {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 21rem;
+  margin: 2rem;
+}
+
+.card-content {
+  text-align: center;
+  position: relative;
+  padding: 11em 5em;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-content {
+  transform: rotateY(0.5turn);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: var(--radius);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 5em 3em;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  text-align: center;
+  -webkit-box-shadow: 0px 0px 25px 1px rgba(87, 87, 87, 0.24);
+  box-shadow: 0px 0px 25px 1px rgba(87, 87, 87, 0.24);
+}
+
+.card-front {
+  background-color: var(--mainBackgroundNav);
+}
+
+.card-body {
+  transform: var(--level-two);
+}
+
+.card-back {
+  text-align: left;
+  transform: rotateY(0.5turn);
+  background: var(--mainBackgroundNav);
+}
+
+.card-ico {
+  width: 10rem;
+  height: auto;
+  transform: var(--level-two);
+}
+
+.cube-3d {
+  height: 100%;
+}
+
+.card-react {
+  width: 15rem;
+}
+
+.card-node {
+  width: 13rem;
+}
+
+.card-blender {
+  padding: 1.5rem;
+}

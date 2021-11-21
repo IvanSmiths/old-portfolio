@@ -1,0 +1,440 @@
+@media only screen and (max-width: 780px) {
+  /********************************* PROJCT START */
+
+  .project-title-cnt {
+    padding: 4rem 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .project-title-cnt > *:nth-child(1) {
+    margin-bottom: 1rem;
+  }
+
+  .pro-desc-cnt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 3rem;
+  }
+
+  .pro-card-cnt {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cannolo {
+    margin-top: 2rem;
+    width: 45vw;
+    height: auto;
+  }
+
+  .pro-desc-cnt > *:nth-child(1) {
+    flex: 1 1 50%;
+    padding-right: 0rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .pro-desc-cnt > *:nth-child(2) {
+    flex: 1 1 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .other-pro {
+    padding: 0rem 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .project-img {
+    cursor: pointer;
+    border-radius: var(--radius);
+    width: 80vw;
+    object-fit: cover;
+    -webkit-box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+    box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+    transition: 0.7s ease-in-out;
+  }
+  /******************************** PROJCT END */
+  /******************************** CONTACT START */
+  .form-cnt input {
+    width: 80vw;
+  }
+
+  .form-cnt textarea {
+    width: 80vw;
+  }
+  .questionary {
+    width: 90vw;
+  }
+  /******************************** CONTACT END */
+  /******************************** HERO START */
+  .cnt-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero-1 p {
+    margin: 1.5rem 0;
+    padding-right: 0rem;
+  }
+
+  .title::before {
+    text-align: left;
+    margin-left: 0rem;
+  }
+
+  .hero-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 0;
+    padding: 0rem 5rem;
+  }
+
+  .hero-2 {
+    padding: 0rem 3rem;
+  }
+
+  .desc-cnt {
+    text-align: center;
+  }
+
+  .desc-paragraph::before {
+    text-align: left;
+    margin-left: 4rem;
+  }
+
+  .desc-cnt p {
+    color: var(--subBackground);
+    margin: 0 2rem;
+  }
+
+  /******************************** SERVICES START */
+  /******************************** SERVICES START */
+  /******************************** SERVICES START */
+
+  .services-cnt {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--marginSection);
+  }
+
+  .services-center {
+    margin-top: 5rem;
+    text-align: center;
+  }
+
+  .services-desc {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-desc-1 {
+    margin-left: 0;
+    padding: 0 10vw;
+  }
+
+  .services-desc-2 {
+    padding: 0 10vw;
+    margin-top: 5rem;
+    justify-content: center;
+    margin-right: 0;
+  }
+
+  .draw-first {
+    top: 190px;
+    left: -16px;
+    position: absolute;
+    transform: translateX(-10rem);
+  }
+
+  .draw-second {
+    position: absolute;
+    transform: translate(-9rem, -3rem);
+  }
+
+  .services-btn {
+    align-self: center;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+
+  .services-image-cnt p {
+    margin-top: 5rem;
+    text-align: center;
+    padding: 0 0.3rem;
+    margin-left: 0;
+  }
+
+  .service-model-cnt p {
+    margin-top: 6rem;
+    margin-bottom: 3rem;
+    padding: 0 0.3rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .services-center h2 {
+    padding: 0 1.6rem;
+  }
+
+  .service-model-cnt-desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .score-title-cnt p {
+    padding: 0 10rem;
+  }
+
+  .react-code-cnt {
+    padding: 8rem 4rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .react-code-cnt h2 {
+    margin-bottom: 2rem;
+    padding-right: 0;
+  }
+
+  .question-cnt h2 {
+    text-align: center;
+  }
+
+  /****************************** HERO END */
+  /****************************** GUIDES START */
+
+  .guides-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 2rem;
+  }
+
+  .img-guide {
+    width: 50vw;
+  }
+
+  .guide-card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainBackgroundNav);
+    padding: 1rem;
+    width: 85vw;
+    border-radius: var(--radius);
+    margin-top: 5rem;
+    gap: 1rem;
+  }
+
+  .social-share-cnt {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  .CookieConsent div {
+    padding: 0rem 1rem !important;
+    text-align: center;
+  }
+
+  .btn-cookie {
+    cursor: pointer !important;
+    padding: 0.6rem 0.9rem !important;
+    background-color: var(--mainColor) !important;
+    border-radius: var(--radius) !important;
+    font-size: var(--smallFont) !important;
+    font-weight: 600 !important;
+    color: rgb(236, 236, 236) !important;
+  }
+
+  /******************************** GUIDES END */
+  /******************************** MYSELF START */
+  .myself-cnt {
+    padding: 0rem 3rem;
+  }
+
+  .myself-card-cnt {
+    padding: 0rem 3rem;
+  }
+
+  .myself-main h1 {
+    text-align: left;
+    padding-right: 9vw;
+    margin-bottom: 3rem;
+  }
+
+  .myself-cnt img {
+    width: 45vw;
+    height: auto;
+  }
+
+  .myself-card-cnt {
+    justify-content: flex-start;
+  }
+
+  /*********************************** MYSELF END */
+  /*********************************** GUIDES START */
+
+  .guide-cnt {
+    text-align: center;
+    padding: 5rem;
+  }
+
+  .script {
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+
+  .question-cnt p {
+    padding: 0 1rem;
+    margin: 1rem 0rem;
+    text-align: center;
+  }
+
+  .react-code-cnt p {
+    text-align: center;
+  }
+  /******************************** GUIDES END */
+}
+
+@media only screen and (max-width: 500px) {
+  /******************************** PROJCT START */
+  .project-title-cnt {
+    padding: 4rem 2rem;
+  }
+  /******************************** PROJCT END */
+  /******************************** HERO START */
+  .score-title-cnt p {
+    padding: 0 2rem;
+  }
+
+  .ico-cnt-absolute {
+    display: none;
+  }
+
+  .desc-paragraph::before {
+    margin-left: 1rem;
+  }
+
+  .hero-btn {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .myself-cnt > *:nth-child(1) {
+    flex: 1 1 50%;
+    margin-top: 5rem;
+    padding-left: 0rem;
+  }
+
+  .hero-1 {
+    padding: 0rem 1rem;
+  }
+
+  .hero-1 p {
+    margin: 3rem 0;
+  }
+
+  .why-card {
+    width: 90vw;
+  }
+
+  .footer-chat-cnt {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .react-code-cnt {
+    padding: 8rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .grid-wrapper {
+    padding: 0;
+  }
+  /*************************************************** HERO END */
+
+  /*************************************************** MYSELF START */
+  .myself-cnt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .myself-card-cnt {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .myself-main h1 {
+    text-align: center;
+    padding: 0rem 4rem;
+    margin-bottom: 3rem;
+  }
+
+  .myself-cnt img {
+    width: 80vw;
+    height: auto;
+  }
+
+  /*************************************************** MYSELF END */
+  /*************************************************** GUIDES START */
+
+  .guide-cnt {
+    text-align: center;
+    padding: 5rem 2rem 5rem 2rem;
+  }
+
+  .guide-img-big {
+    width: 75vw;
+    height: auto;
+  }
+
+  .guide-image-little {
+    width: 54vw;
+    height: auto;
+  }
+  /*************************************************** GUIDES END */
+
+  .questionary {
+    width: 95vw;
+  }
+}

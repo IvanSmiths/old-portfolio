@@ -1,0 +1,129 @@
+.projects-cnt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  text-align: center;
+}
+
+.project-img {
+  cursor: pointer;
+  border-radius: var(--radius);
+  width: 60vw;
+  object-fit: cover;
+  -webkit-box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+  box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.38);
+  transition: 0.7s ease-in-out;
+}
+
+.list-project {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-project img {
+  margin-left: 0.7rem;
+}
+
+.list-project li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.project-title-cnt {
+  padding: 4rem 10rem;
+  background-color: var(--mainInverseBackground);
+  display: flex;
+  flex-direction: row;
+}
+
+.project-title-cnt h2 {
+  margin-left: 0.2rem;
+}
+
+.project-title-cnt > *:nth-child(1) {
+  flex: 1 1 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-title-cnt > *:nth-child(2) {
+  flex: 1 1 30%;
+}
+
+.cannolo {
+  border-radius: var(--radius);
+}
+
+.pro-card-cnt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0rem 2rem;
+  justify-content: space-evenly;
+  margin-top: 3rem;
+}
+
+.pro-desc-cnt a {
+  margin-top: 2rem;
+}
+
+.pro-card {
+  width: 13rem;
+}
+
+.pro-desc-cnt {
+  display: flex;
+  flex-direction: row;
+  padding: 8rem 10rem;
+}
+
+.pro-desc-cnt h2 {
+  margin-bottom: 1rem;
+}
+
+.pro-desc-cnt > *:nth-child(1) {
+  flex: 1 1 50%;
+  padding-right: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pro-desc-cnt > *:nth-child(2) {
+  flex: 1 1 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.other-pro {
+  padding: 0rem 5rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.other-pro2 {
+  padding: 0rem 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.project-card {
+  position: relative;
+  transition: 0.7s ease-in-out;
+}
+
+.project-card:hover {
+  -webkit-box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.58);
+  box-shadow: 0px 0px 45px 1px rgba(0, 0, 0, 0.58);
+  transform: scale(1.05);
+}

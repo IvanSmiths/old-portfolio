@@ -1,0 +1,23 @@
+{
+  "title": "Come inserire modelli 3d in un sito Next.js",
+  "intro": "Introduzione",
+  "p-1": "I modelli 3d sono sempre più presenti nei siti web al giorno d'oggi. Possono aumentare esponenzialmente l'interazione da parte dell'utente, ed in generale, migliorare l'intera esperienza utente. ",
+  "p-2": "Oggi, scriverò riguardo al mio metodo per inserire un modello 3d, visibile nel tuo spazio se il tuo telefono supporta la realtà aumentata, in un sito sviluppato con Next.Js. ",
+  "title-2": "Procurati un modello 3d",
+  "p-3": "Per prima cosa, abbiamo bisogno di un modello 3d. Se vuoi seguire questo tutorial passo dopo passo, ",
+  "p-3-2": "vai al repository completo ",
+  "p-3-3": "di questa guida e scarica il modello 3d dalla cartella 'public' (è l'unico file con l'estensione .glb). Sentiti libero di usare qualsiasi modello, solo fai attenzione che l'estesione sia, appunto, .glb.",
+  "title-3": "<model-viewer>",
+  "p-4": "Per far sì che il modello sia visibile sulla pagina web, useremo <model-viewer> from Google. Questo si prenderà cura di caricare il modello sulla pagina, di renderlo visibile in realtà aumentata, di renderlo responsivo, e di altre cose senza star lì a modificare lunghissime linee di codice.",
+  "p-5": "Vai qui, ",
+  "p-5-2": " e clicca su 'Model Editor', poiseleziona il modello 3d che vuoi caricare. Dovresti vederlo apparire immediatamente! Ora, siamo pronti a personalizzarlo.",
+  "p-6": "Da qui, scrolla giù, clicca sul checkbox 'Ar' per attivare la realtà aumentata, poi, scrolla un po' di più e disattiva i 'custom'. Quest'ultimo si occupa di personalizzare la progress bar ed il bottone per la realtà aumentata, in questo tutorial andremo dritti al sodo.",
+  "p-7": "Nelle altre tabs sulla destra, puoi personalizzare le textures del modello 3d (questo ne ha 3),  o la scena di per sè, cambiando le luci, la skybox e altre cose. Consiglio di andare nella seconda tab, e di cliccare sul bottone 'generate poster' , poi clica su 'download poster'. Questo creerà un'immagine del modello 3d, che verrà vista nel sito web quando l'utente sarà sulla pagina ma il modello 3d deve ancora caricare, per mostrare almeno un'immagine all'utente che visiterà la nostra pagina.",
+  "p-8": "In addition to that, go in the next tab and click on auto-rotate, in order to make the 3d-model auto rotating (you can also set the speed and go crazy with it!), so it doesn't feel like a plain image.",
+  "p-9": "Once you're finished to customize your 3D model, copy the <model-viewer> snippet somewhere, and get ready to finally write some code!",
+  "title-4": "Next.js boilerplate",
+  "p-10": "Open your terminal and create a Next.js boilerplate with the command 'npx create-next-app' (you need node and npm/yarn installed on your machine). Go into the folder, and istall <model-viewer> itself. Then, put both the 3d model and the poster image inside the 'public' folder.",
+  "p-11": "Create a folder called 'components' in the root of the directory and inside of it, create a file called ModelTree.js. In here, import the package, create a function and put the snippet that we previosly saved from <model-viewer>.",
+  "p-12": "Now, we're ready to display our model. Go to the index.js file, and import the component. Notice that we need to import it with the dynamic import, and not as a regular component. Get rid of the footer, the head tag, and everything inside the main tag, then display the component as it would be normally.",
+  "p-13": "Et voilà! The model shows perfectly, is fully responsive and ready to be seeing in your space. Now, it's just a 3d model in a blank page, soon i'm going to add it in a finctional landing page."
+}

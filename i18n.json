@@ -1,0 +1,20 @@
+{
+  "locales": ["en", "it", "de"],
+  "defaultLocale": "en",
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/skills": ["skills"],
+    "/works": ["works"],
+    "/work-ideology": ["work-id"],
+    "/projects": ["projects"],
+    "/project-holycannoli": ["pro-holycannoli"],
+    "/project-cgprospect": ["pro-cgprospect"],
+    "/project-old-portfolio": ["pro-old-portfolio"],
+    "/myself": ["myself"],
+    "/contact": ["contact"],
+    "/message": ["message"],
+    "/guides": ["guides"],
+    "/3d-model-nextjs-website": ["nextjs-3d-model"]
+  }
+}

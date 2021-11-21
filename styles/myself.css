@@ -1,0 +1,37 @@
+.myself-cnt {
+  display: flex;
+  flex-direction: row;
+}
+
+.myself-main h1 {
+  text-align: left;
+  margin-bottom: 3rem;
+}
+
+.myself-cnt > *:nth-child(1) {
+  flex: 1 1 50%;
+  margin-top: 5rem;
+  padding-left: 6rem;
+}
+
+.myself-cnt > *:nth-child(2) {
+  flex: 1 1 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.myself-cnt img {
+  height: auto;
+  width: 25vw;
+}
+
+.myself-card-cnt {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 0rem 10rem;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 5rem;
+}
