@@ -30,7 +30,7 @@ body {
   --bigFont: clamp(2rem, 5.9vw, 5.3rem);
   --mediumFont: clamp(1.8rem, 2.7vw, 3rem);
   --btnFont: clamp(1rem, 1.4vw, 2.2rem);
-  --smallFont: clamp(1rem, 1.4vw, 2rem);
+  --smallFont: clamp(1rem, 1.4vw, 1.3rem);
   --tinyFont: clamp(0.7rem, 0.8vw, 2rem);
 
   --radius: 9px;
@@ -275,15 +275,15 @@ li {
   color: white;
 }
 
-@import './nav.css';
-@import './skills.css';
-@import './projects.css';
-@import './works.css';
-@import './home.css';
-@import './myself.css';
-@import './contact.css';
-@import './guides.css';
-@import './query.css';
+@import "./nav.css";
+@import "./skills.css";
+@import "./projects.css";
+@import "./works.css";
+@import "./home.css";
+@import "./myself.css";
+@import "./contact.css";
+@import "./guides.css";
+@import "./query.css";
 
 .btn-cookie {
   cursor: pointer !important;

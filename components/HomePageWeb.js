@@ -41,7 +41,7 @@ const HomePageWeb = () => {
           alt="website example"
         />
         <h3 className="large-font">
-          SVILUPPO DI <br /> WEBSITES
+        {t('home:sviluppo')}<br />        {t('home:sviluppo-2')}
         </h3>
       </div>
       <div className="services-desc">
